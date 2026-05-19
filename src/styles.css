@@ -64,3 +64,32 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Hero contact line */
+.hero-contact-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  color: #fef3c7;
+  font-size: 16px;
+  font-weight: 850;
+}
+
+.hero-contact-line a {
+  color: #fef3c7;
+  text-decoration: none;
+}
+
+.hero-contact-line a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .hero-contact-line {
+    justify-content: flex-start;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}

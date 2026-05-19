@@ -24,6 +24,8 @@ const profile = {
   summary:
     "I build backend systems, automation pipelines, API integrations, database workflows, and AI-powered tools for freelance clients, remote teams, and production-focused businesses. I aim to deliver reliable, well-tested, maintainable solutions on time, with clear communication from requirement gathering to development, testing, delivery, and support. I also have hands-on experience with Hetzner VPS deployment, Docker-based services, Caddy reverse proxy setup, domain routing, server logs, and deployment troubleshooting.",
   email: "Pythondev958@gmail.com",
+  phone: "+92-333-786-5857",
+  portfolio: "https://omar-portfolio-xi-nine.vercel.app",
   github: "https://github.com/pythondev958",
   linkedin: "https://www.linkedin.com/in/omar-rasheed-4a9858213/",
 };
@@ -299,7 +301,7 @@ function App() {
           <div className="hero-copy">
             <div className="eyebrow">
               <Sparkles size={16} />
-  Open to full-time, freelance, remote, and contract roles in Backend Development, AI Automation, Databases, and API Integrations.
+              Open to full-time, freelance, remote, and contract roles in Backend Development, AI Automation, Databases, and API Integrations.
             </div>
 
             <p className="hero-name-label">Portfolio of</p>
@@ -307,6 +309,15 @@ function App() {
 
             <p className="subtitle">{profile.title}</p>
             <p className="tech-line">{profile.subtitle}</p>
+            <div className="hero-contact-line">
+              <a href={`mailto:${profile.email}`}>{profile.email}</a>
+              <span>•</span>
+              <a href={`tel:${profile.phone.replace(/[^+\d]/g, "")}`}>{profile.phone}</a>
+              <span>•</span>
+              <a href={profile.linkedin} target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>
+            </div>
             <p className="summary">{profile.summary}</p>
 
             <div className="cta-row">
@@ -521,7 +532,7 @@ function App() {
           <p className="section-kicker">Let’s Work</p>
           <h2>Need backend, AI automation, API integration, scraping or database work?</h2>
           <p>
-            I am open to freelance projects and national/remote roles for Gulf, USA and
+            I am open to full-time, freelance, remote, and contract roles for Pakistan, Gulf, USA and
             Europe markets, especially around Python, FastAPI, automation, AI integrations,
             ETL, data pipelines, databases, and deployment troubleshooting.
           </p>
@@ -529,6 +540,10 @@ function App() {
           <div className="cta-row centered">
             <a className="primary-btn" href={`mailto:${profile.email}`}>
               <Mail size={18} /> Email Me
+            </a>
+
+            <a className="secondary-btn" href={`tel:${profile.phone.replace(/\s|-/g, "")}`}>
+              {profile.phone}
             </a>
 
             <a className="secondary-btn" href={profile.linkedin} target="_blank" rel="noreferrer">
