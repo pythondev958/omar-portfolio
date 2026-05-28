@@ -27,7 +27,7 @@ const profile = {
   phone: "+92-333-786-5857",
   portfolio: "https://omar-portfolio-xi-nine.vercel.app",
   github: "https://github.com/pythondev958",
-  linkedin: "https://www.linkedin.com/in/omar-rasheed-4a9858213/",
+  linkedin: "https://www.linkedin.com/in/omar-rasheed-b43903381/",
 };
 
 const featuredProjects = [
