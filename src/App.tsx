@@ -80,6 +80,19 @@ const featuredProjects = [
 
 const professionalProjects = [
   {
+    title: "Smart City Mobility Analytics Research",
+    description:
+      "Final year research project focused on intelligent transportation systems, traffic congestion analysis, geospatial mobility data, machine learning-based congestion prediction, and a blockchain/IoT-based hazard warning concept using IOTA Tangle.",
+    stack: [
+      "Machine Learning",
+      "Blockchain",
+      "IoT",
+      "Geospatial Analysis",
+      "Smart City",
+      "Traffic Prediction",
+    ],
+  },
+  {
     title: "Hetzner VPS Deployment & Troubleshooting",
     description:
       "Worked on deploying and troubleshooting backend/frontend services on Hetzner VPS, including Docker-based services, Caddy reverse proxy configuration, domain routing, container networking, server logs, and production availability checks.",
@@ -273,7 +286,7 @@ const professionalQualities = [
   "Requirement gathering to delivery experience",
   "Testing, debugging and maintenance mindset",
   "Focused on high-quality solutions within time",
-  "Research-driven foundation in blockchain and machine learning",
+  "Research foundation in smart city mobility, blockchain, IoT and machine learning",
   "Always learning modern technologies for better client outcomes",
 ];
 
@@ -519,9 +532,10 @@ function App() {
               I prefer practical systems with clear logs, predictable status flows,
               Postman-testable APIs, safe environment variables, clean database queries,
               deployment checks, server logs, reverse proxy troubleshooting, and step-by-step debugging.
-              My IT journey started with research in blockchain and machine learning for smart city
-              solutions, and I continue to use modern technologies to deliver reliable, useful and
-              maintainable solutions.
+              My IT journey started with a smart city mobility analytics research project focused on
+              traffic congestion analysis, geospatial data, machine learning, IoT and blockchain-based
+              hazard warning concepts. This foundation supports my interest in practical AI,
+              automation, data systems, and real-world technology solutions.
             </p>
           </div>
         </div>
